@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+  .container {
+    padding: 100px 600px;
+    float right;
+    font-size: 120%;
+  }
+  ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444941;
+}
+
+li {
+  float: left;
+}
+
+li a{
+  display: block;
+  font-size:120%;
+
+  color: #FFFFFF;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color:#FFFFFF;
+}
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+.logo{
+  font-family: 'Courier New', monospace;
+  padding: 0px 5px; 
+  color: #D5EEBB;
+  font-size:120%;
+  
+}
+.fa
+{
+
+  padding: 15px 15px; 
+  color: #D5EEBB;
+  text-align: left;
+  
+  
+}
+</style>
+
+
+
+<body style = "background-color:#D5EEBB;" >
+  <ul>
+    <div class = "list">
+    <li><a href="main.html">Home</a></li>
+    <li><a href="#loginc">I'm a client</a></li>
+    <li><a href="#loginp">I'm a Professional</a></li>
+    <li><a href="Aboutus.html">About Us</a></li>
+    <li><a href="#contact">Contact Us</a></li>
+    <li style = "float: right"; >  <i style="font-size:24px"  class="fa">&#xf015;</i> </div> </li>
+  <li style = "float:right"> 
+    <div class = "logo" > <p> SERVICESY </p> </div>
+  </li>
+  </ul>
+  </div>
+  <div id="home" class="w3-content">
+
+    <!-- Contact -->
+    <div  class="container">
+    
+    <h2 class="w3-wide">CONTACT</h2>
+    Vadodara,Gujarat,India<br>
+    Phone: +00 151515<br>
+    Email: servicesycustomercare@gmail.com<br>
+    <p class="w3-opacity w3-center"><i>Have a Query? Drop a note!</i></p>
+    
+    <form action="/action_page.php" target="_blank">
+    <input class="w3-input" type="text" placeholder="Name" required name="Name">
+    <input class="w3-input" type="text" placeholder="Email" required name="Email">
+    <input class="w3-input" type="text" placeholder="Message" required name="Message"><br>
+    <button class="w3-button w3-black" type="submit">SEND</button>
+    </form>
+    <br>
+    
+    
+    <!-- End Content -->
+    </div>
+</body>
+</html>
